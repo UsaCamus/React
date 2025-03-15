@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Sriracha&display=swap');
+
+* 
+{
+    font-family: "Noto Sans Thai", sans-serif;
+}
+
+.NewLedgerContainer {
+    background: lightgray;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.labelLedger {
+    font-size: 16px;
+}
+
+.LedgerInput {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+}
+
+.LedgerInput > label {
+    width: min-content;
+    min-width: 25%;
+    letter-spacing: .03rem;
+    font-weight: 600;
+}
+
+.LedgerInput > input {
+    width: 40%;
+    padding: 0.6em;
+    line-height: 1.4;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    -webkit-transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+    transition: 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+.LedgerInput > select {
+    width: 43%;
+    padding: 0.6em;
+    line-height: 1.4;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    -webkit-transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+    transition: 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+
+.SubmitButton > button {
+    letter-spacing: 2px;
+    border-radius: 40px;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    margin-bottom: 10px;
+    width: 200px;
+    font-family: Phantomsans, sans-serif;
+    font-style: normal;
+    
+}
+
+.SubmitButton > button:hover {
+    background: radial-gradient(circle, #00ab14, #13783f);
+    box-shadow: 0px 0 5px 5px rgba(255, 255, 255, 0.2)
+}
+
+.btn-back {
+    letter-spacing: 2px;
+    border-radius: 40px;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    margin-bottom: 10px;
+    width: 200px;
+    font-family: Phantomsans, sans-serif;
+    font-style: normal;
+    background: radial-gradient(circle, #a5a5a5, #737373);
+}
+
+.btn-back:hover{
+    background: radial-gradient(circle, #939393, #414141);
+    box-shadow: 0px 0 5px 5px rgba(255, 255, 255, 0.2)
+}
